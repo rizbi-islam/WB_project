@@ -2,7 +2,7 @@
   "website_url": "https://hrm.rksoftbd.com/employee/login",
   "fake_gps": [
     { "id": "12558", "latitude": 23.7841711, "longitude": 90.3928411 },
-    { "id": "12560", "latitude": 23.7842711, "longitude": 90.3945411 },
+    { "id": "12560", "latitude": 23.7841896, "longitude": 90.3928658 },
     { "id": "12570", "latitude": 23.7834711, "longitude": 90.3929811 }
   ]
 }
