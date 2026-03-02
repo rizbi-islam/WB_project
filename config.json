@@ -1,36 +1,72 @@
 {
-  "website_url": "https://hrm.rksoftbd.com/employee/login",
-  "fake_gps": [
-    { 
-      "id": "12558",
-      "latitude": 23.783944,
-      "longitude": 90.393295
-    },
-    {
-      "id": "12560",
-      "latitude": 23.784197,
-      "longitude": 90.3928662
-    },
-    {
-      "id": "12570",
-      "latitude": 23.7834711,
-      "longitude": 90.3929811
-    },
-    {
-      "id": "12572",
-      "latitude": 23.7834711,
-      "longitude": 90.3929811
-    }
-    ,
-    {
-      "id": "12573",
-      "latitude": 23.782723,
-      "longitude": 90.395638
-    },
-    {
-      "id": "12574",
-      "latitude": 23.7834711,
-      "longitude": 90.3929811
-    }
-  ]
+  "app": {
+    "enabled": true,
+    "min_version": 1,
+    "maintenance_mode": false,
+    "maintenance_message": "App is under maintenance. Try again later."
+  },
+
+  "website": {
+    "url": "https://hrm.rksoftbd.com/employee/login",
+    "clear_cache_on_start": true,
+    "clear_dom_storage_on_start": true,
+    "clear_history_on_start": false,
+    "clear_cookies_on_start": false
+  },
+
+  "location": {
+    "force_fresh_each_launch": true,
+    "allow_geolocation": true,
+    "cache_location": false
+  },
+
+  "qa": {
+    "enabled": true,
+    "allow_toggle": true,
+    "users": [
+      {
+        "id": "12558",
+        "latitude": 23.783944,
+        "longitude": 90.393295
+      },
+      {
+        "id": "12560",
+        "latitude": 23.784197,
+        "longitude": 90.3928662
+      },
+      {
+        "id": "12570",
+        "latitude": 23.7834711,
+        "longitude": 90.3929811
+      },
+      {
+        "id": "12572",
+        "latitude": 23.7834711,
+        "longitude": 90.3929811
+      },
+      {
+        "id": "12573",
+        "latitude": 23.782723,
+        "longitude": 90.395638
+      },
+      {
+        "id": "12574",
+        "latitude": 23.7834711,
+        "longitude": 90.3929811
+      }
+    ]
+  },
+
+  "security": {
+    "block_rooted_devices": false,
+    "block_emulator": false,
+    "require_secure_connection": true
+  },
+
+  "features": {
+    "enable_webview_cache": false,
+    "enable_dom_storage": true,
+    "enable_javascript": true,
+    "enable_geolocation": true
+  }
 }
