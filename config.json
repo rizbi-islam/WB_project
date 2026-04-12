@@ -32,7 +32,6 @@
       { "id": "12574", "latitude": 23.7834711, "longitude": 90.3929811 }
     ]
   },
-
   "security": {
     "block_rooted_devices": false,
     "block_emulator": false,
