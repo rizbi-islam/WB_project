@@ -2,7 +2,7 @@
   "app": {
     "enabled": true,
     "min_version": 1,
-    "maintenance_mode": true,
+    "maintenance_mode": false,
     "maintenance_message": "App is under maintenance. Try again later."
   },
 
